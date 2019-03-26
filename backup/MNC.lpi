@@ -31,7 +31,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="9">
       <Unit0>
         <Filename Value="MNC.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -52,6 +52,48 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit2"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="font\fmderivadasr.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmDerivadaR"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fmDerivadasR"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="font\frm_milenar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmMilenar"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Frm_Milenar"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="font\frm_confia.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmConfia"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="font\frm_series.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmSeries"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Frm_Series"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="font\frm_interpretador.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmInterpretador"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="font\frm_derivadas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Frm_Derivadas"/>
+      </Unit8>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

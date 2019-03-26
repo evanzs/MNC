@@ -1,0 +1,81 @@
+object FrmConfia: TFrmConfia
+  Left = 811
+  Height = 141
+  Top = 366
+  Width = 219
+  BorderStyle = bsDialog
+  Caption = 'Você confia em seu computador?'
+  ClientHeight = 141
+  ClientWidth = 219
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '2.0.0.4'
+  object BtnInit: TBitBtn
+    Left = 8
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Iniciar'
+    TabOrder = 0
+  end
+  object BtnImt: TBitBtn
+    Left = 136
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Imterromper'
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 13
+    Top = 40
+    Width = 160
+    Caption = 'Constante c = 1/10000 = 0,0001'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 13
+    Top = 56
+    Width = 19
+    Caption = 'k = '
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 13
+    Top = 72
+    Width = 98
+    Caption = 'Soma C (K vezes) = '
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 26
+    Height = 13
+    Top = 88
+    Width = 76
+    Caption = 'Produto k x C ='
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 13
+    Top = 104
+    Width = 75
+    Caption = 'Erro absoluto ='
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 13
+    Height = 13
+    Top = 120
+    Width = 70
+    Caption = 'Erro relativo ='
+    ParentColor = False
+  end
+end

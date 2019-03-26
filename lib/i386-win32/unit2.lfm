@@ -118,16 +118,16 @@ object FrmDerivada: TFrmDerivada
     ParentColor = False
     ParentFont = False
   end
-  object Edit1: TEdit
+  object EdtFunc1: TEdit
     Left = 64
     Height = 23
     Top = 65
     Width = 232
-    OnChange = Edit1Change
+    OnChange = EdtFunc1Change
     ReadOnly = True
     TabOrder = 4
   end
-  object Edit2: TEdit
+  object EdtFunc2: TEdit
     Left = 368
     Height = 23
     Top = 64

@@ -30,5 +30,28 @@ object FrmPrincipal: TFrmPrincipal
       Caption = '&Sair'
       OnClick = MenuItem4Click
     end
+    object MenuItem5: TMenuItem
+      Caption = 'Bonus'
+      OnClick = MenuItem5Click
+      object MenuItem6: TMenuItem
+        Caption = 'Ciclo Minelar'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Você confia?'
+        OnClick = MenuItem8Click
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'Séries de Potência'
+        OnClick = MenuItem9Click
+      end
+      object MenuItem10: TMenuItem
+        Caption = 'Interpretador'
+        OnClick = MenuItem10Click
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'MenuItem11'
+      end
+    end
   end
 end

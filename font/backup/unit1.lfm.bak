@@ -1,8 +1,8 @@
 object FrmPrincipal: TFrmPrincipal
-  Left = 218
-  Height = 801
-  Top = 161
-  Width = 1349
+  Left = 369
+  Height = 540
+  Top = 139
+  Width = 791
   Caption = 'Principal'
   Menu = MainMenu1
   OnCreate = FormCreate
@@ -29,6 +29,22 @@ object FrmPrincipal: TFrmPrincipal
     object MenuItem4: TMenuItem
       Caption = '&Sair'
       OnClick = MenuItem4Click
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Bonus'
+      OnClick = MenuItem5Click
+      object MenuItem6: TMenuItem
+        Caption = 'Ciclo Minelar'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Você confia?'
+        OnClick = MenuItem8Click
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'Séries de Potência'
+        OnClick = MenuItem9Click
+      end
     end
   end
 end
