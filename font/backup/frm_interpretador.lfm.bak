@@ -419,4 +419,9 @@ object FrmInterpretador: TFrmInterpretador
     }
     Transparent = True
   end
+  object Timer1: TTimer
+    Interval = 10
+    left = 371
+    top = 15
+  end
 end

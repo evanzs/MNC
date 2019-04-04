@@ -33,6 +33,7 @@ type
     SpeedButton3: TSpeedButton;
     SpeedButton4: TSpeedButton;
     StringGrid1: TStringGrid;
+    Timer1: TTimer;
   private
 
   public

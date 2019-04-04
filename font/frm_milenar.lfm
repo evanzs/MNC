@@ -1,12 +1,13 @@
 object FrmMilenar: TFrmMilenar
-  Left = 1244
+  Left = 1041
   Height = 92
-  Top = 425
+  Top = 353
   Width = 404
   BorderStyle = bsDialog
   Caption = 'Ciclo Milenar'
   ClientHeight = 92
   ClientWidth = 404
+  OnShow = FormShow
   LCLVersion = '2.0.0.4'
   object BtnInit: TButton
     Left = 8
@@ -20,6 +21,7 @@ object FrmMilenar: TFrmMilenar
     Font.Name = 'Tahoma'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
+    OnClick = BtnInitClick
     ParentFont = False
     TabOrder = 0
   end
@@ -35,6 +37,7 @@ object FrmMilenar: TFrmMilenar
     Font.Name = 'Tahoma'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
+    OnClick = BtnImtClick
     ParentFont = False
     TabOrder = 1
   end

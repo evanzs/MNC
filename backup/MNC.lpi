@@ -64,6 +64,7 @@
         <Filename Value="font\frm_milenar.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmMilenar"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Frm_Milenar"/>
       </Unit4>
@@ -71,12 +72,14 @@
         <Filename Value="font\frm_confia.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmConfia"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit5>
       <Unit6>
         <Filename Value="font\frm_series.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FrmSeries"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Frm_Series"/>
       </Unit6>
@@ -90,7 +93,8 @@
       <Unit8>
         <Filename Value="font\frm_derivadas.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
+        <ComponentName Value="FrmDerivadas"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Frm_Derivadas"/>
       </Unit8>

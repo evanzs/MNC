@@ -1,7 +1,7 @@
 object FrmConfia: TFrmConfia
-  Left = 811
+  Left = 1105
   Height = 141
-  Top = 366
+  Top = 371
   Width = 219
   BorderStyle = bsDialog
   Caption = 'Você confia em seu computador?'
@@ -20,6 +20,7 @@ object FrmConfia: TFrmConfia
     Top = 8
     Width = 75
     Caption = 'Iniciar'
+    OnClick = BtnInitClick
     TabOrder = 0
   end
   object BtnImt: TBitBtn
@@ -28,6 +29,7 @@ object FrmConfia: TFrmConfia
     Top = 8
     Width = 75
     Caption = 'Imterromper'
+    OnClick = BtnImtClick
     TabOrder = 1
   end
   object Label1: TLabel
@@ -50,8 +52,8 @@ object FrmConfia: TFrmConfia
     Left = 8
     Height = 13
     Top = 72
-    Width = 98
-    Caption = 'Soma C (K vezes) = '
+    Width = 95
+    Caption = 'SomaC (K vezes) = '
     ParentColor = False
   end
   object Label4: TLabel

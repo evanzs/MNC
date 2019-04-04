@@ -1,7 +1,7 @@
 object FrmSeries: TFrmSeries
-  Left = 1013
+  Left = 1139
   Height = 131
-  Top = 302
+  Top = 530
   Width = 276
   Caption = 'Calculo de funções por séries de potências'
   ClientHeight = 131
@@ -76,6 +76,7 @@ object FrmSeries: TFrmSeries
     Height = 21
     Top = 32
     Width = 88
+    OnChange = Edit1Change
     TabOrder = 3
   end
   object Edit2: TEdit
@@ -91,6 +92,7 @@ object FrmSeries: TFrmSeries
     Top = 30
     Width = 75
     Caption = 'Calcular'
+    OnClick = BtnCalcClick
     TabOrder = 5
   end
   object Memo1: TMemo

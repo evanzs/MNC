@@ -1,7 +1,7 @@
 object FrmInterpretador: TFrmInterpretador
-  Left = 585
+  Left = 635
   Height = 162
-  Top = 167
+  Top = 431
   Width = 520
   BorderStyle = bsDialog
   Caption = 'Brincando com o Interpretador'
