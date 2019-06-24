@@ -1,14 +1,14 @@
 object FrmMilenar: TFrmMilenar
-  Left = 1041
+  Left = 646
   Height = 92
-  Top = 353
+  Top = 229
   Width = 404
   BorderStyle = bsDialog
   Caption = 'Ciclo Milenar'
   ClientHeight = 92
   ClientWidth = 404
   OnShow = FormShow
-  LCLVersion = '2.0.0.4'
+  LCLVersion = '2.0.2.0'
   object BtnInit: TButton
     Left = 8
     Height = 25

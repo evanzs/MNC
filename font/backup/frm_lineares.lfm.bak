@@ -1,0 +1,302 @@
+object frmLineares: TfrmLineares
+  Left = 426
+  Height = 390
+  Top = 162
+  Width = 632
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Sistemas Lineares'
+  ClientHeight = 390
+  ClientWidth = 632
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  Position = poDesktopCenter
+  LCLVersion = '2.0.2.0'
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 88
+    Top = 8
+    Width = 172
+    Caption = 'Ordem do Sistema'
+    ClientHeight = 70
+    ClientWidth = 168
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Height = 13
+      Top = 0
+      Width = 146
+      Caption = 'Número de Variaveis (3 até 20)'
+      ParentColor = False
+    end
+    object SpeedButton4: TSpeedButton
+      Left = 72
+      Height = 22
+      Top = 16
+      Width = 23
+      Flat = True
+    end
+    object SpeedButton5: TSpeedButton
+      Left = 136
+      Height = 22
+      Top = 16
+      Width = 23
+      Flat = True
+    end
+    object SpinEdit1: TSpinEdit
+      Left = 8
+      Height = 21
+      Top = 16
+      Width = 56
+      MaxValue = 20
+      MinValue = 3
+      TabOrder = 0
+      Value = 3
+    end
+    object CheckBox1: TCheckBox
+      Left = 8
+      Height = 19
+      Top = 48
+      Width = 153
+      Caption = 'Preencher vazios com zeros'
+      Checked = True
+      State = cbChecked
+      TabOrder = 1
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Height = 52
+    Top = 104
+    Width = 172
+    Caption = 'Solução,Ajuda e Informação'
+    ClientHeight = 34
+    ClientWidth = 168
+    TabOrder = 1
+    object SpeedButton1: TSpeedButton
+      Left = 8
+      Height = 22
+      Top = 8
+      Width = 23
+      Flat = True
+    end
+    object SpeedButton2: TSpeedButton
+      Left = 72
+      Height = 22
+      Top = 8
+      Width = 23
+      Flat = True
+    end
+    object SpeedButton3: TSpeedButton
+      Left = 136
+      Height = 22
+      Top = 8
+      Width = 23
+      Flat = True
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 188
+    Height = 148
+    Top = 8
+    Width = 437
+    Caption = 'Métodos'
+    ClientHeight = 130
+    ClientWidth = 433
+    TabOrder = 2
+    OnClick = GroupBox3Click
+    object Label2: TLabel
+      Left = 8
+      Height = 13
+      Top = 0
+      Width = 33
+      Caption = 'Diretos'
+      ParentColor = False
+    end
+    object RadioButton1: TRadioButton
+      Left = 8
+      Height = 19
+      Top = 16
+      Width = 95
+      Caption = 'Gauss - Simples'
+      TabOrder = 8
+    end
+    object RadioButton2: TRadioButton
+      Left = 8
+      Height = 19
+      Top = 34
+      Width = 153
+      Caption = 'Gauss - Pivotamento Parcial'
+      TabOrder = 0
+    end
+    object RadioButton3: TRadioButton
+      Left = 8
+      Height = 19
+      Top = 52
+      Width = 147
+      Caption = 'Gauss - Pivotamento TOtal'
+      TabOrder = 1
+    end
+    object RadioButton4: TRadioButton
+      Left = 8
+      Height = 19
+      Top = 70
+      Width = 107
+      Caption = 'Gauss - Compacto'
+      TabOrder = 2
+    end
+    object RadioButton5: TRadioButton
+      Left = 8
+      Height = 19
+      Top = 88
+      Width = 111
+      Caption = 'Decomposição L.U'
+      TabOrder = 3
+    end
+    object RadioButton6: TRadioButton
+      Left = 8
+      Height = 19
+      Top = 106
+      Width = 63
+      Caption = 'Cholesky'
+      TabOrder = 4
+    end
+    object RadioButton7: TRadioButton
+      Left = 184
+      Height = 19
+      Top = 16
+      Width = 108
+      Caption = 'Jacobi-Richardson'
+      Checked = True
+      TabOrder = 12
+      TabStop = True
+    end
+    object Label3: TLabel
+      Left = 184
+      Height = 13
+      Top = 0
+      Width = 43
+      Caption = 'Iterativos'
+      ParentColor = False
+    end
+    object RadioButton8: TRadioButton
+      Left = 184
+      Height = 19
+      Top = 34
+      Width = 88
+      Caption = 'Gauss - Seidel'
+      TabOrder = 5
+    end
+    object Label4: TLabel
+      Left = 184
+      Height = 13
+      Top = 52
+      Width = 88
+      Caption = 'Opções Adicionais'
+      ParentColor = False
+    end
+    object Label5: TLabel
+      Left = 312
+      Height = 13
+      Top = 0
+      Width = 88
+      Caption = 'Critérios de parada'
+      ParentColor = False
+    end
+    object Label6: TLabel
+      Left = 312
+      Height = 26
+      Top = 16
+      Width = 99
+      Caption = 'Número de Iterações'#13#10'(10 até 100)'
+      ParentColor = False
+    end
+    object Label7: TLabel
+      Left = 312
+      Height = 26
+      Top = 72
+      Width = 93
+      Caption = 'Tolerância'#13#10'(0,001 até 0,00001)'
+      ParentColor = False
+    end
+    object SpinEdit2: TSpinEdit
+      Left = 312
+      Height = 21
+      Top = 45
+      Width = 56
+      MinValue = 10
+      TabOrder = 6
+      Value = 10
+    end
+    object FloatSpinEdit1: TFloatSpinEdit
+      Left = 312
+      Height = 21
+      Top = 101
+      Width = 72
+      DecimalPlaces = 5
+      Increment = 0.00001
+      MaxValue = 0.001
+      MinValue = 0.00001
+      TabOrder = 7
+      Value = 0.00001
+    end
+    object CheckBox2: TCheckBox
+      Left = 184
+      Height = 19
+      Top = 70
+      Width = 57
+      Caption = 'Sistema'
+      Checked = True
+      State = cbChecked
+      TabOrder = 9
+    end
+    object CheckBox3: TCheckBox
+      Left = 184
+      Height = 19
+      Top = 88
+      Width = 83
+      Caption = 'Determinante'
+      Enabled = False
+      TabOrder = 10
+    end
+    object CheckBox4: TCheckBox
+      Left = 184
+      Height = 19
+      Top = 106
+      Width = 55
+      Caption = 'Inversa'
+      Enabled = False
+      TabOrder = 11
+    end
+  end
+  object GroupBox4: TGroupBox
+    Left = 8
+    Height = 224
+    Top = 158
+    Width = 617
+    Caption = 'Dados'
+    ClientHeight = 206
+    ClientWidth = 613
+    TabOrder = 3
+    object StringGrid1: TStringGrid
+      Left = 8
+      Height = 200
+      Top = 0
+      Width = 597
+      ColCount = 16
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing]
+      RowCount = 15
+      TabOrder = 0
+      TitleFont.CharSet = ANSI_CHARSET
+      TitleFont.Color = clBlack
+      TitleFont.Height = -11
+      TitleFont.Name = 'MS Sans Serif'
+      TitleFont.Pitch = fpVariable
+      TitleFont.Quality = fqDraft
+    end
+  end
+end

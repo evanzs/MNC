@@ -19,6 +19,7 @@ type
     LSoma: TLabel;
     LTempo: TLabel;
     StringGrid1: TStringGrid;
+    procedure BtnImtClick(Sender: TObject);
     procedure BtnInitClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
@@ -105,6 +106,12 @@ for i:=0 to 255 do
 end;
 BtnInit.Enabled:=True;//Emmaisdemilanos,chegaránestalinha:-)
 BtnImt.SetFocus;	//E,imediatamenteaseguir,chegaránestaend;
+end;
+
+procedure TFrmMilenar.BtnImtClick(Sender: TObject);
+begin
+  BtnImt.Enabled:=False;
+  Interrompe:=True;
 end;
 
 end.

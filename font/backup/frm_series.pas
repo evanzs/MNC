@@ -134,7 +134,7 @@ begin
       z :=Exp(x);	//Calcular e^x do compilador
       Memo1.Lines.Add('Valor de e^x para X= '+FloatToStr(x)+ ' com série de ' +IntToStr(n)+' termos ');
       Memo1.Lines.Add('cálculo com a série: '+FloatToStr(y));
-      Memo1.Lines.Add('cálculodo compilador '+FloatToStr(z));
+      Memo1.Lines.Add('cálculodo compilador: '+FloatToStr(z));
   end;
   //-------------------------------- -----------------------------//
                                      {SE FOR SENO}

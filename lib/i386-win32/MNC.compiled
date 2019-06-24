@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="C:\lazarus\fpc\3.0.4\bin\i386-win32\fpc.exe" Date="1313016277"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq -FiC:\Users\020547\Documents\MNC\lib\i386-win32 -FuC:\Users\020547\Documents\MNC\font -FuC:\lazarus\lcl\units\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32 -FuC:\lazarus\components\lazutils\lib\i386-win32 -FuC:\lazarus\packager\units\i386-win32 -FuC:\Users\020547\Documents\MNC\ -FUC:\Users\020547\Documents\MNC\lib\i386-win32\ -FEC:\Users\020547\Documents\MNC\ -oC:\Users\020547\Documents\MNC\MNC.exe -dLCL -dLCLwin32 MNC.lpr"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq -FiC:\Users\evand\Documents\repositorios\MNC\lib\i386-win32 -FuC:\Users\evand\Documents\repositorios\MNC\font -FuC:\lazarus\components\tachart\lib\i386-win32\win32 -FuC:\lazarus\components\ideintf\units\i386-win32\win32 -FuC:\lazarus\components\lazcontrols\lib\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32 -FuC:\lazarus\components\lazutils\lib\i386-win32 -FuC:\lazarus\packager\units\i386-win32 -FuC:\Users\evand\Documents\repositorios\MNC\ -FUC:\Users\evand\Documents\repositorios\MNC\lib\i386-win32\ -FEC:\Users\evand\Documents\repositorios\MNC\ -oC:\Users\evand\Documents\repositorios\MNC\MNC.exe -dLCL -dLCLwin32 MNC.lpr"/>
 </CONFIG>

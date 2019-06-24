@@ -7,9 +7,10 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, Unit1, Unit2, fmDerivadasR, Frm_Milenar, frm_confia, Frm_Series,
-  frm_interpretador, Frm_Derivadas
-  { you can add units after this };
+  Forms, Unit1,fmDerivadasR, Frm_Milenar, frm_confia, Frm_Series,
+  frm_interpretador, Frm_Derivadas, frm_raizes, frm_lineares, lazcontrols,
+  frm_interpola, tachartlazaruspkg;
+  { you can add units after this }
 
 {$R *.res}
 
@@ -24,7 +25,11 @@ begin
   Application.CreateForm(TFrmConfia, FrmConfia);
   Application.CreateForm(TFrmSeries, FrmSeries);
   Application.CreateForm(TFrmInterpretador, FrmInterpretador);
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFrmDerivadas, FrmDerivadas);
+  Application.CreateForm(TFrmRaizes, FrmRaizes);
+  Application.CreateForm(TfrmLineares, frmLineares);
+  Application.CreateForm(TfrmInterpolacao, frmInterpolacao);
+
   Application.Run;
 end.
 

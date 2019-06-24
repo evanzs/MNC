@@ -1,7 +1,7 @@
 object FrmConfia: TFrmConfia
-  Left = 1105
+  Left = 339
   Height = 141
-  Top = 371
+  Top = 195
   Width = 219
   BorderStyle = bsDialog
   Caption = 'Você confia em seu computador?'
@@ -13,7 +13,7 @@ object FrmConfia: TFrmConfia
   Font.Name = 'Tahoma'
   Font.Pitch = fpVariable
   Font.Quality = fqDraft
-  LCLVersion = '2.0.0.4'
+  LCLVersion = '2.0.2.0'
   object BtnInit: TBitBtn
     Left = 8
     Height = 30

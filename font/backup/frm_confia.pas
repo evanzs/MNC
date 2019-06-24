@@ -56,8 +56,8 @@ Produto:=k*0.0001;
 Label2.Caption:='k = '+IntToStr(k);
 Label3.Caption:='SomaC(kvezes) = '+FloatToStr(Soma);
 Label4.Caption:='Produto k x  C= '+FloatToStr(Produto);
-Label5.Caption:='Erro absoluto ='+FloatToStr(Abs(Produto-Soma));
-Label6.Caption:='Erro relativo ='+FloatToStr(Abs((Produto-Soma)/(Produto)));
+Label5.Caption:='Erro absoluto = '+FloatToStr(Abs(Produto-Soma));
+Label6.Caption:='Erro relativo = '+FloatToStr(Abs((Produto-Soma)/(Produto)));
 Sleep(1);
 Application.ProcessMessages;
 

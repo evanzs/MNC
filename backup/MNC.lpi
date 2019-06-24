@@ -26,12 +26,18 @@
       <FormatVersion Value="2"/>
       <Modes Count="0"/>
     </RunParams>
-    <RequiredPackages Count="1">
+    <RequiredPackages Count="3">
       <Item1>
-        <PackageName Value="LCL"/>
+        <PackageName Value="TAChartLazarusPkg"/>
       </Item1>
+      <Item2>
+        <PackageName Value="LazControls"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
     </RequiredPackages>
-    <Units Count="9">
+    <Units Count="15">
       <Unit0>
         <Filename Value="MNC.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -98,6 +104,47 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Frm_Derivadas"/>
       </Unit8>
+      <Unit9>
+        <Filename Value="font\frm_raizes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmRaizes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="font\frm_lineares.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLineares"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="font\frm_interpola.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmInterpolacao"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="font\unit4.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit4"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="font\unit3.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit3"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="font\unit5.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit5"/>
+      </Unit14>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

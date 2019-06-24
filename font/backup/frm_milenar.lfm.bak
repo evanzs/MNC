@@ -37,6 +37,7 @@ object FrmMilenar: TFrmMilenar
     Font.Name = 'Tahoma'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
+    OnClick = BtnImtClick
     ParentFont = False
     TabOrder = 1
   end
