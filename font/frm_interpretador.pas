@@ -34,6 +34,8 @@ type
     SpeedButton4: TSpeedButton;
     StringGrid1: TStringGrid;
     Timer1: TTimer;
+    procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
   private
 
   public
@@ -46,6 +48,18 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TFrmInterpretador }
+
+procedure TFrmInterpretador.SpeedButton1Click(Sender: TObject);
+begin
+
+end;
+
+procedure TFrmInterpretador.SpeedButton3Click(Sender: TObject);
+begin
+
+end;
 
 end.
 

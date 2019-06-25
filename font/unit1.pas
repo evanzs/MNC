@@ -14,10 +14,15 @@ type
   { TFrmPrincipal }
 
   TFrmPrincipal = class(TForm)
+    GroupBox1: TGroupBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
     MainMenu1: TMainMenu;
     MenuItem1: TMenuItem;
     MenuItem10: TMenuItem;
-    MenuItem11: TMenuItem;
     MenuItem12: TMenuItem;
     MenuItem2: TMenuItem;
     MenuItem3: TMenuItem;
@@ -98,7 +103,7 @@ end;
 
 procedure TFrmPrincipal.MenuItem4Click(Sender: TObject);
 begin
-  Application.Terminate;
+  ShellExecute(Self.Handle,'open',PChar('calc.exe'),nil,nil,1);
 end;
 
 procedure TFrmPrincipal.MenuItem5Click(Sender: TObject);
@@ -113,7 +118,8 @@ end;
 
 procedure TFrmPrincipal.MenuItem7Click(Sender: TObject);
 begin
-  ShellExecute(Self.Handle,'open',PChar('calc.exe'),nil,nil,1);
+  Application.Terminate;
+
 end;
 
 procedure TFrmPrincipal.MenuItem8Click(Sender: TObject);

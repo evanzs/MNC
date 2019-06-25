@@ -1,7 +1,7 @@
 object FrmInterpretador: TFrmInterpretador
-  Left = 635
+  Left = 436
   Height = 162
-  Top = 431
+  Top = 293
   Width = 520
   BorderStyle = bsDialog
   Caption = 'Brincando com o Interpretador'
@@ -15,7 +15,7 @@ object FrmInterpretador: TFrmInterpretador
   Font.Quality = fqDraft
   Position = poDesktopCenter
   ShowHint = True
-  LCLVersion = '2.0.0.4'
+  LCLVersion = '2.0.2.0'
   object GroupBox1: TGroupBox
     Left = 8
     Height = 113
@@ -114,6 +114,7 @@ object FrmInterpretador: TFrmInterpretador
         2D4F4A2823201B15075A5A5A1541564C3C33303232291D065A5A5A5A5A35354A
         534E4A453B22225A5A5A5A5A5A5A5A1F2E343426185A5A5A5A5A
       }
+      OnClick = SpeedButton1Click
     end
   end
   object GroupBox2: TGroupBox
@@ -267,6 +268,7 @@ object FrmInterpretador: TFrmInterpretador
         2D4F4A2823201B15075A5A5A1541564C3C33303232291D065A5A5A5A5A35354A
         534E4A453B22225A5A5A5A5A5A5A5A1F2E343426185A5A5A5A5A
       }
+      OnClick = SpeedButton3Click
     end
     object CheckBox1: TCheckBox
       Left = 6

@@ -1,63 +1,154 @@
 object FrmPrincipal: TFrmPrincipal
-  Left = 336
+  Left = 341
   Height = 540
-  Top = 89
+  Top = 133
   Width = 791
   Caption = 'Principal'
+  ClientHeight = 520
+  ClientWidth = 791
   Menu = MainMenu1
   OnCreate = FormCreate
   LCLVersion = '2.0.2.0'
+  object GroupBox1: TGroupBox
+    Left = 24
+    Height = 177
+    Top = 200
+    Width = 209
+    Caption = 'Implementados:'
+    ClientHeight = 157
+    ClientWidth = 205
+    Color = 16227722
+    ParentColor = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 32
+      Height = 20
+      Top = 48
+      Width = 103
+      Caption = 'Ciclo Milenar'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 32
+      Height = 20
+      Top = 80
+      Width = 109
+      Caption = 'Você Confia?'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 32
+      Height = 20
+      Top = 112
+      Width = 152
+      Caption = 'Séries de Potencia'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 16
+      Height = 20
+      Top = 24
+      Width = 57
+      Caption = 'Bonus:'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 35
+    Top = 408
+    Width = 355
+    Caption = 'O restante é apenas tela'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -29
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
   object MainMenu1: TMainMenu
     ParentBidiMode = False
     ImagesWidth = 100
     left = 203
     top = 87
     object MenuItem1: TMenuItem
-      Caption = 'Metodos'
+      Caption = '&Metodos'
       OnClick = MenuItem1Click
       object MenuItem2: TMenuItem
-        Caption = 'Derivadas'
+        Caption = '&Derivadas'
         OnClick = MenuItem2Click
       end
       object MenuItem3: TMenuItem
-        Caption = 'Raizes da Função'
+        Caption = '&Raizes da Função'
         OnClick = MenuItem3Click
       end
       object MenuItem12: TMenuItem
-        Caption = 'Sistemas Lineares'
+        Caption = '&Sistemas Lineares'
         OnClick = MenuItem12Click
       end
     end
-    object MenuItem7: TMenuItem
-      Caption = 'Calculadora'
-      OnClick = MenuItem7Click
-    end
-    object MenuItem4: TMenuItem
-      Caption = '&Sair'
-      OnClick = MenuItem4Click
-    end
     object MenuItem5: TMenuItem
-      Caption = 'Bonus'
+      Caption = '&Bonus'
       OnClick = MenuItem5Click
       object MenuItem6: TMenuItem
-        Caption = 'Ciclo Minelar'
+        Caption = '&Ciclo Minelar'
         OnClick = MenuItem6Click
       end
       object MenuItem8: TMenuItem
-        Caption = 'Você confia?'
+        Caption = '&Você confia?'
         OnClick = MenuItem8Click
       end
       object MenuItem9: TMenuItem
-        Caption = 'Séries de Potência'
+        Caption = '&Séries de Potência'
         OnClick = MenuItem9Click
       end
       object MenuItem10: TMenuItem
-        Caption = 'Interpretador'
+        Caption = '&Interpretador'
         OnClick = MenuItem10Click
       end
-      object MenuItem11: TMenuItem
-        Caption = 'MenuItem11'
-      end
+    end
+    object MenuItem4: TMenuItem
+      Caption = '&Calculadora'
+      OnClick = MenuItem4Click
+    end
+    object MenuItem7: TMenuItem
+      Caption = '&Sair'
+      OnClick = MenuItem7Click
     end
   end
 end
