@@ -1,7 +1,7 @@
 object FrmPrincipal: TFrmPrincipal
-  Left = 341
+  Left = 285
   Height = 540
-  Top = 133
+  Top = 276
   Width = 791
   Caption = 'Principal'
   ClientHeight = 520
@@ -105,7 +105,7 @@ object FrmPrincipal: TFrmPrincipal
     ParentBidiMode = False
     ImagesWidth = 100
     left = 203
-    top = 87
+    top = 88
     object MenuItem1: TMenuItem
       Caption = '&Metodos'
       OnClick = MenuItem1Click
@@ -120,6 +120,14 @@ object FrmPrincipal: TFrmPrincipal
       object MenuItem12: TMenuItem
         Caption = '&Sistemas Lineares'
         OnClick = MenuItem12Click
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Interpolação'
+        OnClick = MenuItem11Click
+      end
+      object MenuItem13: TMenuItem
+        Caption = 'Integrais'
+        OnClick = MenuItem13Click
       end
     end
     object MenuItem5: TMenuItem

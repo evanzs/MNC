@@ -1,7 +1,7 @@
 object FrmDerivadas: TFrmDerivadas
-  Left = 456
+  Left = 455
   Height = 533
-  Top = 91
+  Top = 137
   Width = 512
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
@@ -23,9 +23,9 @@ object FrmDerivadas: TFrmDerivadas
     Height = 533
     Top = 0
     Width = 512
-    ActivePage = TabSheet1
+    ActivePage = TabSheet2
     Align = alClient
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 0
     object TabSheet1: TTabSheet
       Caption = 'Jacobiana'
@@ -642,7 +642,6 @@ object FrmDerivadas: TFrmDerivadas
           Top = 8
           Width = 228
           TabOrder = 1
-          Text = 'Edit4'
         end
         object Edit5: TEdit
           Left = 362

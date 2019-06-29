@@ -7,7 +7,9 @@ interface
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Menus,
   ExtCtrls, Buttons,ShellApi,
-  Frm_Milenar,frm_confia,Frm_Series,Frm_Interpretador,frm_derivadas,frm_lineares, frm_raizes;//novos forms criados e estanciados
+  //novos forms criados e estanciados
+  Frm_Milenar,frm_confia,Frm_Series,Frm_Interpretador,
+  frm_derivadas,frm_lineares, frm_raizes,frm_integraisN;
 
 type
 
@@ -23,7 +25,9 @@ type
     MainMenu1: TMainMenu;
     MenuItem1: TMenuItem;
     MenuItem10: TMenuItem;
+    MenuItem11: TMenuItem;
     MenuItem12: TMenuItem;
+    MenuItem13: TMenuItem;
     MenuItem2: TMenuItem;
     MenuItem3: TMenuItem;
     MenuItem4: TMenuItem;
@@ -36,7 +40,9 @@ type
     procedure FormCreate(Sender: TObject);
     procedure imgFundoClick(Sender: TObject);
     procedure MenuItem10Click(Sender: TObject);
+    procedure MenuItem11Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
+    procedure MenuItem13Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
     procedure MenuItem3Click(Sender: TObject);
@@ -81,9 +87,19 @@ begin
   FrmInterpretador.ShowModal;
 end;
 
+procedure TFrmPrincipal.MenuItem11Click(Sender: TObject);
+begin
+   frmIntegrais.ShowModal;
+end;
+
 procedure TFrmPrincipal.MenuItem12Click(Sender: TObject);
 begin
   frmLineares.ShowModal;
+end;
+
+procedure TFrmPrincipal.MenuItem13Click(Sender: TObject);
+begin
+
 end;
 
 procedure TFrmPrincipal.MenuItem1Click(Sender: TObject);

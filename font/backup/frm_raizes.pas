@@ -76,8 +76,7 @@ implementation
 
 { TFrmRaizes }
 
-procedure TFrmRaizes.GroupBox4C
-ick(Sender: TObject);
+procedure TFrmRaizes.GroupBox4Click(Sender: TObject);
 begin
 
 end;

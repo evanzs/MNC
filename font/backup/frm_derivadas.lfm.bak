@@ -1,7 +1,7 @@
 object FrmDerivadas: TFrmDerivadas
-  Left = 456
+  Left = 384
   Height = 533
-  Top = 91
+  Top = 531
   Width = 512
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
@@ -642,7 +642,6 @@ object FrmDerivadas: TFrmDerivadas
           Top = 8
           Width = 228
           TabOrder = 1
-          Text = 'Edit4'
         end
         object Edit5: TEdit
           Left = 362

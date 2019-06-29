@@ -37,7 +37,7 @@
         <PackageName Value="LCL"/>
       </Item3>
     </RequiredPackages>
-    <Units Count="15">
+    <Units Count="17">
       <Unit0>
         <Filename Value="MNC.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -122,6 +122,7 @@
         <Filename Value="font\frm_interpola.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmInterpolacao"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit11>
       <Unit12>
@@ -145,6 +146,19 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit5"/>
       </Unit14>
+      <Unit15>
+        <Filename Value="font\frm_integraisn.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmIntegrais"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm_integraisN"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="font\frm_ajuste.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form4"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit16>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
